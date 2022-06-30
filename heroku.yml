@@ -1,7 +1,6 @@
 build:
     docker:
         web: Dockerfile
-        worker: worker/Dockerfile
 
 run:
-    web: npm run server
+    web: npm run dev
